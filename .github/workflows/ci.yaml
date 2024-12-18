@@ -2,6 +2,7 @@
 #
 # Generated on 2024-12-02T11:48:54Z by kres 232fe63.
 
+
 name: default
 concurrency:
   group: ${{ github.head_ref || github.run_id }}
