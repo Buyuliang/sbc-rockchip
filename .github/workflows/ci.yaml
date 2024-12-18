@@ -27,7 +27,7 @@ jobs:
       packages: write
       pull-requests: read
     runs-on:
-      - self-hosted
+      - ubuntu-latest
       - pkgs
     if: (!startsWith(github.head_ref, 'renovate/') && !startsWith(github.head_ref, 'dependabot/'))
     services:
